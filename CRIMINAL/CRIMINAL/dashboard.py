@@ -1,22 +1,13 @@
 import cv2
-import numpy as np 
-
-import os
-from dbConnection import conn
 #conn = sqlite3.connect('database.db')
 
 from PIL import ImageTk
-from matplotlib import pyplot as plt
-from tkinter import filedialog
 import PIL.Image, PIL.ImageTk
 from tkinter import *
 import mysql.connector as con
 import tkinter.messagebox
-from PIL import ImageTk,Image
 global var
-import TrainModule
 global screen
-from dbConnection import view_all_attendance
 def main_screen():
     
     
@@ -65,7 +56,6 @@ def oc():
     screen3.destroy()
 
 def close():
-    import admin_login
     screen3.destroy()
     
 
