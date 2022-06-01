@@ -1,5 +1,4 @@
 import datetime
-from datetime import timedelta
 datetimeFormat = '%Y-%m-%d %H:%M:%S.%f'
   
 date2 = datetime.datetime.now()

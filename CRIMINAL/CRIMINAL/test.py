@@ -1,5 +1,4 @@
 
-import math
 import nexmo
 
 def send_sms(number,msg):
@@ -14,4 +13,3 @@ def send_sms(number,msg):
 
 
     
- 
