@@ -12,7 +12,6 @@ import PIL.Image, PIL.ImageTk
 from tkinter import *
 import mysql.connector as con
 import tkinter.messagebox
-from PIL import ImageTk,Image
 global var
 import TrainModule
 global screen

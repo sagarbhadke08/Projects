@@ -18,7 +18,6 @@ print("Microseconds:", diff.microseconds)
 print("Seconds:", diff.seconds)
 s=diff.seconds/120
 print(s)
-import datetime
 old_time = datetime.datetime.now()
 a=old_time.strftime('%Y-%m-%d %H:%M:%S.%f')
 print("hello"+a)
