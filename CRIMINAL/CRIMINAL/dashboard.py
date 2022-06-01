@@ -3,9 +3,6 @@ import numpy as np
 
 import os
 from dbConnection import conn
-#conn = sqlite3.connect('database.db')
-
-from PIL import ImageTk
 from matplotlib import pyplot as plt
 from tkinter import filedialog
 import PIL.Image, PIL.ImageTk
